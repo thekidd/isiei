@@ -1,0 +1,14 @@
+class PageController < ApplicationController
+  def home
+    @title="Home"
+  end
+  
+  def organismo_di_ispezione
+    @title="Organismo d'ispezione"
+  end
+  
+  def soggetti_interessati
+    @title="Soggetti Interessati"
+  end
+
+end

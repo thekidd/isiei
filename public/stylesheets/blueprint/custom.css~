@@ -1,0 +1,97 @@
+body {
+	margin:0;
+  padding:0;
+	text-align: center;
+	background: #bbacf3;
+}
+
+
+header {
+  margin:0;
+  padding:0;
+  color: #19007b; 
+  background: #fff;
+  border-bottom: 1px solid #bbacf3;
+}
+
+header h1 {
+  display: inline;
+}
+
+.nav_bar {
+  margin: 0;
+  padding: 0;
+  width: 375px;
+  height: 450px;
+  background: #fff;
+}
+
+header img {
+  padding: 0;
+  margin: 0; 
+}
+
+nav ul { 
+  text-align: center;
+}
+
+nav ul li {
+  width: 375px;
+  height: 50px;
+  background-image: url("../../images/menu-bg.png");
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #19007b;
+  font-size: 150%;
+}
+
+nav ul li a:hover {
+  text-decoration: none; 
+  color: #2e08bc;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.content{
+  color: #19007b;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  height: 450px;
+  border-left: 1px solid #bbacf3;
+  background: #fff;
+	width: 574px;
+	z-index: 2;
+}
+.content h1 {
+  color: #19007b;
+  text-align: center;
+}
+.content p {
+  margin-left: 10px;
+}
+
+
+footer {
+  float: left;
+  background-image: url("../../images/footer.png");   
+  width: 100%;
+}
+
+footer p{
+
+  font-weight: bold;
+  font-size:small;
+}
+ table;
+}
+
+.field_with_errors label {
+  color: #fff;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+  <%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
+    <%= stylesheet_link_tag 'blueprint/custom', :media => 'screen' %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div class="container">
+<header>
+  <a href="/"><img id="logo" alt="ISIEI" src="/images/header.png" /></a>
+</header>
+<nav class="nav_bar column span-5">
+    <ul>
+      <li><%= link_to "Organismo di Ispezione", 'page/organismo_di_ispezione' %></li>
+      <li><%= link_to "Soggetti interessati", 'page/soggetti_interessati' %></li>
+      <li><%= link_to "Verifiche", '#'%></li>
+      <li><%= link_to "Controlli e Responsabilita", '#' %></li>
+      <li><%= link_to "Richiedi Offerta", '#'%></li>
+      <li><%= link_to "Contattaci", '#'%></li>
+    </ul>
+  </nav>
+<div class="content column span-7 last">
+    <%= yield %>
+</div>
+
+<footer class="bottom">
+  <p>Tel.: 0432-717225
+Fax: 0432717633
+E-Mail: info@isiei.it
+Via Alpe Adria, 73
+33049 San Pietro al Natisone (UD)</p>
+</footer>
+
+</div>
+</body>
+</html>
