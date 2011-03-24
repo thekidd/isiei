@@ -2,6 +2,9 @@ Isiei::Application.routes.draw do
   get "page/home"
   get "page/organismo"
   get "page/soggetti"
+  get "page/verifiche"
+  get "page/controlli"
+  get "page/contattaci"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -10,5 +10,17 @@ class PageController < ApplicationController
   def soggetti
     @title="Soggetti Interessati"
   end
+  
+  def verifiche
+    @title="Verifiche"
+  end
+  
+  def controlli
+    @title="Controlli e Responsabilit&agrave;"
+  end
+  
+  def contattaci
+    @title="Contattaci"
+  end
 
 end

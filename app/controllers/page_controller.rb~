@@ -3,12 +3,20 @@ class PageController < ApplicationController
     @title="Home"
   end
   
-  def organismo_di_ispezione
+  def organismo
     @title="Organismo d'ispezione"
   end
   
-  def soggetti_interessati
+  def soggetti
     @title="Soggetti Interessati"
+  end
+  
+  def verifiche
+    @title="Verifiche"
+  end
+  
+  def controlli
+    @title="Controlli e Responsabilit&agrave;"
   end
 
 end

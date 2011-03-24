@@ -22,7 +22,7 @@ header h1 {
   margin: 0;
   padding: 0;
   width: 375px;
-  height: 450px;
+  height: 600px;
   background: #fff;
 }
 
@@ -62,7 +62,7 @@ nav ul li a:hover {
   text-align: left;
   margin: 0;
   padding: 0;
-  height: 450px;
+  height: 600px;
   border-left: 1px solid #bbacf3;
   background: #fff;
 	width: 574px;

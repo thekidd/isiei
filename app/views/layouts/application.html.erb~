@@ -18,10 +18,10 @@
 </header>
 <nav class="nav_bar column span-5">
     <ul>
-      <li><%= link_to "Organismo di Ispezione", 'page/organismo_di_ispezione' %></li>
-      <li><%= link_to "Soggetti interessati", 'page/soggetti_interessati' %></li>
-      <li><%= link_to "Verifiche", '#'%></li>
-      <li><%= link_to "Controlli e Responsabilita", '#' %></li>
+      <li><%= link_to "Organismo di Ispezione", :controller => "page", :action => "organismo" %></li>
+      <li><%= link_to "Soggetti interessati", :controller => "page", :action => "soggetti" %></li>
+      <li><%= link_to "Verifiche", :controller => "page", :action => "verifiche" %></li>
+      <li><%= link_to "Controlli e Responsabilità", :controller => "page", :action => "controlli" %></li>
       <li><%= link_to "Richiedi Offerta", '#'%></li>
       <li><%= link_to "Contattaci", '#'%></li>
     </ul>
