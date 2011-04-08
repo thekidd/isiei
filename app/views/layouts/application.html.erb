@@ -16,7 +16,7 @@
 <header>
   <a href="/"><img id="logo" alt="ISIEI" src="/images/header.png" /></a>
 </header>
-<nav class="nav_bar column span-5">
+<nav class="nav_bar">
     <ul>
       <li><%= link_to "Organismo di Ispezione", :controller => "page", :action => "organismo" %></li>
       <li><%= link_to "Soggetti interessati", :controller => "page", :action => "soggetti" %></li>
@@ -26,7 +26,7 @@
       <li><%= link_to "Contattaci", :controller => "page", :action => "contattaci" %></li>
     </ul>
   </nav>
-<div class="content column span-7 last">
+<div class="content">
     <%= yield %>
 </div>
 

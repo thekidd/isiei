@@ -2,7 +2,7 @@ body {
 	margin:0;
   padding:0;
 	text-align: center;
-	background: #bbacf3;
+	background: #fff;
 }
 
 
@@ -21,9 +21,11 @@ header h1 {
 .nav_bar {
   margin: 0;
   padding: 0;
-  width: 375px;
-  height: 450px;
+  border-right: 1px solid #bbacf3;
+  float: left;
+  width: 250px;
   background: #fff;
+  z-index: 1;
 }
 
 header img {
@@ -32,13 +34,12 @@ header img {
 }
 
 nav ul { 
-  text-align: center;
+  text-align: left;
 }
 
 nav ul li {
-  width: 375px;
+  width: 250px;
   height: 50px;
-  background-image: url("../../images/menu-bg.png");
   text-decoration: none;
   list-style-type: none;
   padding-top: 5px;
@@ -60,12 +61,10 @@ nav ul li a:hover {
 .content{
   color: #19007b;
   text-align: left;
-  margin: 0;
+  margin-left: 250px;
   padding: 0;
-  height: 450px;
   border-left: 1px solid #bbacf3;
   background: #fff;
-	width: 574px;
 	z-index: 2;
 }
 .content h1 {
@@ -76,10 +75,15 @@ nav ul li a:hover {
   margin-left: 10px;
 }
 
+#frequenza {
+  background: url("../../images/frequenza.png") no-repeat left
+}
 
 footer {
-  float: left;
-  background-image: url("../../images/footer.png");   
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #bbacf3;
+  float: left;  
   width: 100%;
 }
 

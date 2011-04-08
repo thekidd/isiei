@@ -16,7 +16,11 @@ class PageController < ApplicationController
   end
   
   def controlli
-    @title="Controlli e Responsabilit&agrave;"
+    @title="Controlli e Responsabilità"
+  end
+  
+  def contattaci
+    @title="Contattaci"
   end
 
 end
