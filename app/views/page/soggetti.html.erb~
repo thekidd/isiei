@@ -1,7 +1,24 @@
-<h1>SOGGETTI INTERESSATI</h1>
+<h1>Soggetti interessati</h1>
 
 <p>Sono tenuti a rispettare il DPR 462/01 tutti i datori di lavoro che hanno almeno un dipendente nella propria azienda.</p>
 
 <p>Secondo la normativa vigente sono assimilati a "dipendenti" anche persone e soci lavoratori di società cooperative, gli stagisti, gli apprendisti, gli allievi di scuole che utilizzano macchine utensili e attrezzature in genere.</p>
 
 <p>Sono soggetti alle verifiche previste dal DPR 462/01 i seguenti impianti:</p>
+
+<span id="messa_a_terra">
+  <img id="messa_a_terra" alt="Impianti di messa a terra" src="/images/messa_a_terra.png" />
+  <h3>Impianti di messa a terra</h3>
+</span>
+
+<span id="parafulmini">
+  <img id="parafulmini" alt="Dispositivi contro scariche atmosferiche" src="/images/parafulmini.png" />
+  <h3>Dispositivi contro scariche atmosferiche</h3>
+</span>
+
+<span >
+  <img id="esplosione" alt="Impianti di messa a terra" src="/images/esplosione.png" />
+  <h3>Impianti elettrici in luoghi con pericolo di esplosione</h3>
+</span>
+
+

@@ -71,12 +71,30 @@ nav ul li a:hover {
   color: #19007b;
   text-align: center;
 }
+
+.content h3 {
+  color: #19007b;
+  text-align: left;
+}
+
 .content p {
   margin-left: 10px;
 }
 
 #frequenza {
-  background: url("../../images/frequenza.png") no-repeat left
+  background: url("../../images/frequenza.png") no-repeat right;
+}
+
+#organismi_abilitati {
+  background: url("../../images/abilitati.png") no-repeat right;
+}
+
+#controlli {
+  background: url("../../images/controlli.png") no-repeat left;
+}
+
+#contattaci {
+  background: url("../../images/contattaci.png") no-repeat right;
 }
 
 footer {
